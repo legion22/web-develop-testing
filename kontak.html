@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Edgar Sinaga</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+ </head>
+ 
+ <body>
+	 <!-- menu website -->
+	 <div id="menu_web">
+		 <span>
+		 <a href="lite.html" class="menu">Home</a>
+		 <span>
+		 <a href="member.html" class="menu">Member</a>
+		 <span>
+		 <a href="kontak.html" class="menu">Kontak</a>
+	 </div>
+	 
+	 <!--bagian awal, isi nya tag heading-->
+  <div>
+  <h1>Kontak ULTIMATE</h1>
+  <h2>&nbsp;Tutorial <span>Membuat website</span> </h2>
+  </div>
+  
+  
+  <!-- membuat form -->
+  <form>
+	  <fieldset>
+		  <legend> Nama dan Pesan </legend>
+	  <label for="nama_user">Nama</label>
+	  <input type="text" placeholder="Nama User" id="nama_user">
+	  <br>
+	  <label for="pesan_user">Pesan</label>
+	  <textarea cols="100" rows="7" placeholder="Pesan anda...." id="pesan_user"></textarea>
+	  <br>
+	  </fieldset>
+	  
+	  <fieldset>
+	  <label>Hobi</label> <br>
+	  <input type="checkbox" name="hobi_user" value="0"> Menggambar <br>
+	  <input type="checkbox" name="hobi_user" value="1" checked> Menulis <br>
+	  <input type="checkbox" name="hobi_user" value="2"> Menyanyi
+	  <br>
+	  <input type="radio" name="gender" value="0" checked>Laki-laki <br>
+	  <input type="radio" name="gender" value="1">Perempuan <br>
+	  <br>
+	  <label>Pelajaran</label>
+	  <select>
+		 <optgroup label="Fronted">
+		  <option value="html">HTML</option>
+		  <option value="css">CSS</option>
+		 </optgroup>
+		  
+		 <optgroup label="Backend">
+		  <option value="js">PHP</option>
+		  <option value="db">DATABASE</option>
+		 </optgroup>
+	  </select>
+	  
+	 <br>
+	 <input type="submit" value="Input Data">
+	 </fieldset>
+	 
+  <br>
+  <table border="1">
+	  <caption> Daftar murid ULTIMATE </caption>
+   <tr>
+	   <th>Nama Murid</th>
+	   <th>Kota asal</th>
+   </tr>
+   <tr>
+	<td>Edgar</td>
+	<td>Pontianak</td>
+   </tr>
+   <tr>
+	   <td>Irfan</td>
+	   <td>Pontianak</td>
+   </tr>
+  </table>
+  
+  <!-- list pada html -->
+  <ul>
+	  <li>Edgar</li>
+	  <li>Irfan</li>
+  
+  <dl>
+	  <dt>Edgar</dt>
+	  <dd>User pertama ULTIMATE</dd>
+  </dl>
+  
+    <dl>
+	  <dt>Irfan</dt>
+	  <dd>User kedua ULTIMATE</dd>
+  </dl>
+	 
+  <p>&copy; ULTIMATE</p>
+ </body>
+</html>
